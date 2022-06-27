@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html xmlms:th="https://www.thymeleaf.org/">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title ></title>
+    <link rel="stylesheet"  type="text/css" href="static/CSS/estilo.css" th:href="@{/css/estilo.css}"/>
+    <link
+      rel="icon"
+      href="https://www.freepngimg.com/thumb/fishing/65825-fish-icon-fishing-exquisite-royalty-free-free-download-png-hq.png"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/index.html">Regresar</a>
+        <a href="https://en.wikipedia.org/wiki/Rodeo" target="_blank"
+          >Wikkipedia
+        </a>
+        <a
+          href="https://www.facebook.com/EsrellasDelRodeo/videos/"
+          target="_blank"
+          >Facebook</a
+        >
+        <a href="#">++</a>
+      </nav>
+    </header>
+    <div>
+      <div class="encabezado-img">
+        <p>Del mar</p>
+        <h1 >Peruano</h1>
+        <p>Para el mundo</p>
+      </div>
+
+      <div class="relleno1">
+        <div class="parrafo" >
+        <p th:text="${granada}"></p>
+        </div>
+
+        <div class="imagen">
+          <img
+            src="https://cdn.kiwilimon.com/recetaimagen/26255/th5-640x426-23270.jpg"
+            alt="imagen"
+          />
+        </div>
+      </div>
+
+      <div class="relleno2">
+        <div class="imagen2">
+          <img
+            src="https://www.chimuadventures.com/blog/wp-content/uploads/2016/06/Ceviche_Peru_shutterstock1.jpg"
+            alt="imagen"
+          />
+
+          <div class="parrafo2">
+            Particularmente, El rodeo estadounidense, es popular hoy en día
+            dentro de la provincia canadiense de Alberta y en todo el oeste de
+            los Estados Unidos, es el deporte oficial del estado de Wyoming,
+            Dakota del Sur y Texas.
+          </div>
+        </div>
+      </div>
+
+      <div class="relleno3">
+        <div class="parrafo">
+          Hoy en día, es un evento deportivo que involucra caballos y otros
+          animales, diseñado para probar la habilidad y la velocidad de los
+          vaqueros y vaqueras. <br />
+          <br />Los rodeos profesionales de estilo estadounidense generalmente
+          comprenden los siguientes eventos: roping de amarre, roping por
+          equipos, lucha de novillos, monta de broncos de silla de montar,
+          equitación de broncos desnudos, monta de toros y carreras de barriles.
+        </div>
+
+        <div class="imagen">
+          <img
+            src="https://media.istockphoto.com/photos/freshly-prepared-ceviche-from-white-fish-with-onions-and-peppers-picture-id1053436980?k=6&m=1053436980&s=612x612&w=0&h=uRn7k6E5WBsChwJyxg1qP1mPkr-4KeaxCY-OXMcjo3I="
+            alt="imagen"
+          />
+        </div>
+      </div>
+      <div class="relleno1">
+
+        <div class="imagen2">
+          <img
+            src="https://www.finedininglovers.com/sites/g/files/xknfdk626/files/styles/open_graph_image/public/Gaston-Acurio.jpg?itok=rpPC31dI"
+            alt="imagen"
+          />
+
+          <div class="parrafo2">
+            Alfredo Leopoldo Díaz González (Llay-Llay, Chile; 16 de mayo de 1992)
+            es un jinete chileno de rodeo y comunicador audiovisual. Fue campeón
+            nacional de Chile junto a Pablo Aninat en el Campeonato Nacional de
+            Rodeo de 2019 al realizar 40 puntos, montando a "Peumo Marcado" y
+            "Doña Inés".1
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
